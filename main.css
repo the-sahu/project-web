@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;;
+}
+body{
+    background-color: #f8f8f8;
+}
+.section-height{
+    height: 800px;
+}
+.body-image{
+    background-image: url('./img/Group\ 34.png');
+    background-repeat: no-repeat !important;
+    background-size: unset;
+    background-position-x: right;
+    
+}
+   .hero-image{
+   margin-top: 650px;
+   position: absolute;
+}
+.btn-image{
+    position: relative;
+    margin-top: 85px;
+    margin-left: 100px;
+}
+.top-butn{
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 0;
+    left: 0;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+.hero-text{
+    color: #2d3652;
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 64px;
+}
+.card-bg{
+    position: relative;
+    margin-top: 150px;
+}
+.card-section{
+    position: absolute;
+    margin-left: 20px !important;
+    top: 0;
+    margin-top: 200px;
+    height: 500px;
+}
+.card{
+    height: 450px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.card-img-top{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* media quireis */
+@media only screen and (max-width: 360px){
+    .body-image{
+        display:none ;}
+    .hero-image{
+        display: none;
+    }
+        .body-image{
+            background-image: url('./img/mobile-bg.svg');
+            background-repeat: no-repeat;
+            background-size: initial;
+            float: right;
+            background-position-x: right;
+            display: block;
+            left: 0;
+            margin-right: 0px;
+            right: 0;
+    }
+    .hero-text{
+        font-size: 40px;
+        margin-left: 40px;
+    }
+    .btn-image{
+        margin-top: 75px !important;
+    }
+    .top-butn{
+        margin-top: 30px !important;
+        margin-left: 80px;
+    }
+    .card-bg{
+       height: 400px !important;
+       width: 350px;
+     margin-left: 50px !important;
+       left: 0 !important;
+       padding-left: 0px !important;
+       right: 0;
+       padding: 0;
+       position:inherit;
+
+    }
+    .card-section{
+    height: 250px !important;
+    width: auto;
+    margin-left: 50px !important;
+       
+    }
+    .card{
+        height: 320px !important;
+        width:250px !important ;
+        margin-left: 50px !important;
+    }
+    .footer-text{
+        text-align: wrap !important;
+        margin-left: 50px !important;
+    }
+} 
+  
+
