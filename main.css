@@ -34,6 +34,17 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight:600;
 }
+.top-butn:focus {
+    color: black !important;
+    background-color: rgb(164, 204, 85) !important;
+    transition-duration: 0.3s !important;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+}
+.top-butn:hover{
+    
+    background-color: yellowgreen!important;
+    box-shadow: 5px 0px 10px rgb(172, 169, 169) !important;
+}
 .hero-text{
     color: #2d3652;
     margin-top: 80px;
@@ -49,8 +60,9 @@ body{
     margin-left: 20px !important;
     top: 0;
     margin-top: 200px;
-    height: 500px;
+    /* height: 500px; */
 }
+
 .card{
     height: 450px;
     border-radius: 15px;
@@ -85,6 +97,7 @@ body{
     }
     .btn-image{
         margin-top: 75px !important;
+        margin-left: 150px !important;
     }
     .top-butn{
         margin-top: 30px !important;
@@ -93,7 +106,7 @@ body{
     .card-bg{
        height: 400px !important;
        width: 350px;
-     margin-left: 50px !important;
+       margin-left: 50px !important;
        left: 0 !important;
        padding-left: 0px !important;
        right: 0;
