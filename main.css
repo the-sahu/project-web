@@ -39,13 +39,13 @@ body{
 }
 .top-butn:focus {
     color: black !important;
-    background-color: rgb(164, 204, 85) !important;
+    background-color:#86D791!important;
     transition-duration: 0.3s !important;
     transition: cubic-bezier(0.23, 1, 0.320, 1);
 }
 .top-butn:hover{
     
-    background-color: yellowgreen!important;
+    background-color: #FA8A5E!important;
     box-shadow: 5px 0px 10px rgb(172, 169, 169) !important;
 }
 .hero-text{
@@ -85,8 +85,8 @@ body{
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color:yellowgreen; /* Set a background color */
-    color:white; /* Text color */
+    background-color:#FACD2E; /* Set a background color */
+    color:black; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
@@ -162,8 +162,8 @@ body{
         z-index: 99; /* Make sure it does not overlap */
         border: none; /* Remove borders */
         outline: none; /* Remove outline */
-        background-color:yellowgreen; /* Set a background color */
-        color:white; /* Text color */
+        background-color:#FACD2E; /* Set a background color */
+        color:black; /* Text color */
         cursor: pointer; /* Add a mouse pointer on hover */
         padding: 10px; /* Some padding */
         border-radius: 10px; /* Rounded corners */
